@@ -3,7 +3,7 @@
 	<div class="video-module">
 		<div>
 			<h1>mp4播放</h1>
-			<h2></h2>
+			<h2>播放三个视频，先移除第一个视频，会发现第二个视频也会消失</h2>
 		</div>
 		<div class="content">
 			<div style="display: flex; flex-direction: column;"
