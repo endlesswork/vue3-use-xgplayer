@@ -47,32 +47,35 @@
 			let player0 = new Player({
 			  id: item0.id,
 			  volume: 0,
-			  url: item0.url
+			  url: item0.url,
+			  width: 200
 			});
 			item0.player = player0;
 			player0.on('destroy',()=>{
 				console.log('player0 destroy');
-				this.videoList.splice(0, 1);
+				videoList.value.splice(0, 1);
 			}); 
 			let player1 = new Player({
 			  id: item1.id,
 			  volume: 0,
-			  url: item1.url
+			  url: item1.url,
+			  width: 200
 			});
 			item1.player = player1;
 			player1.on('destroy',()=>{
 				console.log('player1 destroy');
-				this.videoList.splice(0, 1);
+				videoList.value.splice(0, 1);
 			}); 
 			let player2 = new Player({
 			  id: item2.id,
 			  volume: 0,
-			  url: item2.url
+			  url: item2.url,
+			  width: 200
 			});
 			item2.player = player2;
 			player2.on('destroy',()=>{
 				console.log('player2 destroy');
-				this.videoList.splice(0, 1);
+				videoList.value.splice(0, 1);
 			}); 
 		});
 		
